@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Counter from './contents/Counter';
 import ProjectList from './contents/ProjectList';
-import Header from './common/Header';
+// import Header from './common/Header';
 import Footer from './common/Footer';
 import TextEffect from './contents/TextEffect';
 import { ImgList } from './contents/Img';
@@ -33,7 +33,7 @@ class Main extends Component {
     return (
       <>
         {/* HEADER */}
-        <Header />
+        {/* <Header /> */}
         {/* HEADER */}
 
         <div className="container">
