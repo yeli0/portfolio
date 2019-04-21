@@ -32,7 +32,7 @@ class Siwan extends Component {
                 <div>
                   <strong>WEBSITE</strong>
                   <p>
-                    <a href="http://www.yeli0.com/siwan/" target="_blank" rel="noopener noreferrer">
+                    <a href="http://yeli0.com/siwan/" target="_blank" rel="noopener noreferrer">
                       siwancom.com
                     </a>
                   </p>
