@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Redirect} from 'react-router-dom';
 import Footer from './Footer';
-import Header from './Header';
+// import Header from './Header';
 
 class Warning extends Component {
   constructor(props) {
@@ -18,11 +18,14 @@ class Warning extends Component {
   render() {
     return (
       <>
-        <Header />
+        {/* <Header /> */}
 
         <div className="warning">
           <h2>404 ERROR !</h2>
-          <strong>죄송합니다. 현재 찾을 수 없는 페이지를 요청 하셨습니다.</strong>
+          <strong>
+            죄송합니다.<br />
+            현재 찾을 수 없는 페이지를 요청 하셨습니다.
+          </strong>
           <p>
             잠시 후 메인으로 이동됩니다.
           </p>
