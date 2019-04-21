@@ -1,6 +1,10 @@
 .sub {
   width: 100%;
 
+  @include mq("tablet"){
+    height: calc(100% - 114px);
+  }
+
   &-header {
     width: 100%;
     background-color: $blue;
